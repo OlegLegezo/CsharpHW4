@@ -17,10 +17,12 @@ int[] initArray(int size)
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = rnd.Next(-9, 10);
-        Console.Write(array[i] + " "); //если нужно отобразить
+        //Console.Write(array[i] + " "); //если нужно отобразить
     }
     return array;
 }
 //метод создания массива
 
 int[] arr = initArray(num);
+string st=string.Join(", ", arr);//компаную массив в красивую строку
+Console.WriteLine(st);
