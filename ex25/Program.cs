@@ -14,7 +14,7 @@ int b1 = int.Parse(Console.ReadLine());
 int exponentiation(int a, int b) //метод возведение числа a в степень b
 {
     int answer = 0; //тут можно сделать переменную тип double, чтобы увеличить место под ответ
-    if (b==0)
+    if (b == 0)
     {
         answer = 1;
     }
